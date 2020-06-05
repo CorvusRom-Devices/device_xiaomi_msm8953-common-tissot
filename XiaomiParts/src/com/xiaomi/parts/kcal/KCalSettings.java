@@ -42,6 +42,9 @@ public class KCalSettings extends PreferenceFragment implements
         mEnabled.setOnPreferenceChangeListener(this);
         mEnabled.setTitle(enabled ? R.string.kcal_enabled : R.string.kcal_disabled);
 
+        mSetOnBoot = (SecureSettingSwitchPreference) findPreference(PREF_SETONBOOT);
+        mSetOnBoot.setOnPreferenceChangeListener(this);
+
         mMin = (SecureSettingSeekBarPreference) findPreference(PREF_MINIMUM);
         mMin.setOnPreferenceChangeListener(this);
 
@@ -150,6 +153,10 @@ public class KCalSettings extends PreferenceFragment implements
         mValue.refresh(value);
         mContrast.refresh(contrast);
         mHue.refresh(hue);
+    }
+
+    void setmSetOnBoot(boolean checked) {
+        mSetOnBoot.setChecked(checked);
     }
 
     void setmGrayscale(boolean checked) {
