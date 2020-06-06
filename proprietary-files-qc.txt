@@ -210,7 +210,6 @@ vendor/firmware/cpp_firmware_v1_10_0.fw
 vendor/firmware/cpp_firmware_v1_5_2.fw
 vendor/firmware/cpp_firmware_v1_1_6.fw
 
-<<<<<<< HEAD
 # CDSP - from LA.UM.8.6.2.r1-06600-89xx.0
 vendor/bin/cdsprpcd|6fb2700151a6e6dd57a5d9a388cf3a95d3e8262b
 vendor/lib/libcdsprpc.so|e5b8cfaf3200a3558dd65e121e0c23e0a5cc15c2
@@ -565,6 +564,15 @@ vendor/lib64/liblistenjni.so|124eb4884ad221101543fcad305cb3ab1f56dd58
 vendor/lib64/liblistensoundmodel2.so|7fe107e1e815a66d6361ba2a43643e6d2b1cc54c
 
 # Media - from LA.UM.8.6.2.r1-06600-89xx.0
+# Listen - from LA.UM.8.6.2.r1-07600-89xx.0
+vendor/lib/hw/sound_trigger.primary.msm8953.so|c35fbded11566f2d9f479849f44de625b7e3f8d8
+vendor/lib/libadpcmdec.so|0b00273d1321f4fde109b1f8be514ab0ac6bedf1
+vendor/lib/libsmwrapper.so|5b3e34fd89883a2c308f377988da031c519a7b38
+vendor/lib/vendor.qti.voiceprint@1.0.so|2f9141a46d99737c6812ea921e4497ff954d726c
+vendor/lib64/hw/sound_trigger.primary.msm8953.so|4af21ccf55a0db519e115e54af843d539d8a72bc
+vendor/lib64/vendor.qti.voiceprint@1.0.so|ab99a512c95b55c887b624b21fbc947bc6a6c999
+
+# Media - from LA.UM.8.6.2.r1-07100-89xx.0
 vendor/lib/libI420colorconvert.so|4feec5034de3e21d95602ca93c559550c682e19b
 vendor/lib/libmmosal_proprietary.so|e6bc0d4dea15a126af00d3ae522eea50e9e3e762
 vendor/lib/libOmxAacDec.so|8522c55e4266c6d3b4103220fc37ac91fa29dda9
