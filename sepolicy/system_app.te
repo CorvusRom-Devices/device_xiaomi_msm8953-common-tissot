@@ -9,7 +9,3 @@ allow system_app wificond:binder call;
 allow system_app sysfs_leds:dir search;
 allow system_app sysfs_torch:file { open getattr write };
 allow system_app sysfs_fastcharge:file { open read getattr write };
-
-# Spectrum
-allow system_app spectrum_prop:property_service set;
-get_prop(system_app, spectrum_prop);
