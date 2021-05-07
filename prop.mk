@@ -149,6 +149,9 @@ ro.vendor.use_data_netmgrd=true \
 persist.data.netmgrd.qos.enable=true \
 persist.vendor.data.mode=concurrent
 
+# Gboard
+ro.com.google.ime.kb_pad_port_b=1
+
 # Nitz
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.rild.nitz_plmn="" \
