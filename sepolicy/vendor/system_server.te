@@ -1,3 +1,5 @@
 # Input devices
 r_dir_file(system_server, vendor_idc_file);
 r_dir_file(system_server, vendor_keylayout_file);
+
+add_service(system_server, applock_service);
